@@ -36,6 +36,8 @@
     <link rel="next" title="Basics" href="general/odoo_basics.html" />
     <link rel="prev" title="Users and Features" href="settings/users_and_features.html" /> 
 
+    
+
   <style>
   /* Fixed sidenav, full height */
 .sidenav {
@@ -54,8 +56,10 @@
 .sidenav a, .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-family : sans-serif;
+  font-weight : normal;
   font-size: 14px;
-  color: #7A436B;
+  color: #915a82;
   display: block;
   border: none;
   background: none;
@@ -63,11 +67,14 @@
   text-align: left;
   cursor: pointer;
   outline: none;
+  
 }
 
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
+  color: #633156;
+  text-decoration: underline;
+  
 }
 
 /* Main content */
@@ -79,14 +86,14 @@
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: #633156;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: #262626;
+  background-color: white;
   padding-left: 8px;
 }
 
@@ -109,11 +116,16 @@
   <a href="#services">Services</a>
   <a href="#clients">Clients</a>
   <a href="#contact">Contact</a>
-  <button class="dropdown-btn">Dropdown
-    <i class="fa fa-caret-down"></i>
+  <button class="dropdown-btn"><i class="fa fa-caret-right"></i>Dropdown
+    
   </button>
   <div class="dropdown-container">
-    <a href="#">Link 1</a>
+    <button class="dropdown-btn"><i class="fa fa-caret-right"></i>Dropdown </button>
+    <div class="dropdown-container">
+    <button class="dropdown-btn"><i class="fa fa-caret-right"></i>Dropdown </button>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
     <a href="#">Link 2</a>
     <a href="#">Link 3</a>
   </div>
