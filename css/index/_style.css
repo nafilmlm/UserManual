@@ -9655,6 +9655,7 @@ html {
     display: block;
     background-size: cover;
     background-position: 50%;
+    background-image: url("../../images/index_banner.jpg");
   }
   .card.top {
     position: relative;
@@ -9708,7 +9709,6 @@ html {
     height: 100%;
   }
   .card.top .card-img {
-    background-image: url("https://www.odoo.com/documentation/user/14.0/_static/img/banner_bg.png");
   }
   .card.top .container {
     position: relative;

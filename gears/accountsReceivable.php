@@ -282,11 +282,11 @@ transform:rotate(90deg);
 </section>
 
 <style>
-  .container{padding: 10px; width: 1250px;}
+  .container{padding: 20px; width: 1250px;}
 </style> 
 
 <div class="container">
-  <iframe id="myiFrame" style="width:100%; height:700px;" src="https://docs.google.com/document/d/e/2PACX-1vSL6LTkE1ThP9U00y0KzKvZrrcsGG_EwxmoiOXKbjTUNShubVr83HezPfzGqGwdOevpaviyy-ki1BJ0/pub?embedded=true"></iframe>
+  <iframe id="myiFrame" style="width:100%; height:800px; margin-top:-120px; margin-left:-80px; pointer-events: ;" src="https://docs.google.com/document/d/e/2PACX-1vSL6LTkE1ThP9U00y0KzKvZrrcsGG_EwxmoiOXKbjTUNShubVr83HezPfzGqGwdOevpaviyy-ki1BJ0/pub?embedded=true" > </iframe>
 
 
                         <script>

@@ -46,181 +46,49 @@
     <link rel="icon" href="images/logo.png">
 
 
-  </head><body><header class="o_main_header o_has_sub_nav o_inverted index">
-    <div class="o_main_header_main">
-      <a class="pull-left " href="/"></a>
-      <a href="#" class="o_mobile_menu_toggle visible-xs-block pull-right">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="mdi-navigation-menu"></span>
-      </a>
-      <div class="o_header_buttons">
-        <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
-      </div>
-      <ul class="o_primary_nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle">Apps</a>
-          <div class="dropdown-menu o_secondary_nav">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-3 o_website_apps">
-                  <div class="o_nav_app_family">
-                    <span></span> Websites
-                    <div>Build great user experience</div>
-                  </div>
-                  <ul>
-                    <li><a href="https://www.odoo.com/page/website-builder">Website Builder</a></li>
-                    <li><a href="https://www.odoo.com/page/e-commerce">eCommerce</a></li>
-                    <li><a href="https://www.odoo.com/page/blog-engine">Blogs</a></li>
-                    <li><a href="https://www.odoo.com/page/community-builder">Forums</a></li>
-                    <li><a href="https://www.odoo.com/page/learning-management-system">eLearning</a></li>
-                    <li><a href="https://www.odoo.com/page/live-chat">Live Chat</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-3 o_sale_apps">
-                  <div class="o_nav_app_family">
-                    <span></span> Sales
-                    <div>Boost your success rate</div>
-                  </div>
-                  <ul>
-                    <li><a href="https://www.odoo.com/page/sales">Sales</a></li>
-                    <li><a href="https://www.odoo.com/page/crm">CRM</a></li>
-                    <li><a href="https://www.odoo.com/page/billing">Invoicing</a></li>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Point of Sale</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/point-of-sale">Shops</a></li>
-                        <li><a href="https://www.odoo.com/page/pos-restaurant">Restaurants</a></li>
-                        <li><a href="https://www.odoo.com/page/point-of-sale-hardware">Hardware</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/subscriptions">Subscriptions</a></li>
-                    <li><a href="https://www.odoo.com/page/sign">Sign</a></li>
-                    <li><a href="https://www.odoo.com/page/rental">Rental</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-3 o_operation_apps">
-                  <div class="o_nav_app_family">
-                    <span></span> Operations
-                    <div>It's all about efficiency</div>
-                  </div>
-                  <ul>
-                    <li><a href="https://www.odoo.com/page/accounting/">Accounting</a></li>
-                    <li><a href="https://www.odoo.com/page/project-management/">Project</a></li>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Human Resources</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/referral">Referral</a></li>
-                        <li><a href="https://www.odoo.com/page/employees">Employees</a></li>
-                        <li><a href="https://www.odoo.com/page/expenses">Expenses</a></li>
-                        <li><a href="https://www.odoo.com/page/appraisal">Appraisal</a></li>
-                        <li><a href="https://www.odoo.com/page/fleet">Fleet</a></li>
-                        <li><a href="https://www.odoo.com/page/leaves">Time Off</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/warehouse">Inventory</a></li>
-                    <li><a href="https://www.odoo.com/page/purchase">Purchase</a></li>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Manufacturing</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/manufacturing">MRP</a></li>
-                        <li><a href="https://www.odoo.com/page/plm">PLM</a></li>
-                        <li><a href="https://www.odoo.com/page/maintenance">Maintenance</a></li>
-                        <li><a href="https://www.odoo.com/page/quality">Quality</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/helpdesk">Helpdesk</a></li>
-                    <li><a href="https://www.odoo.com/page/field-service-management">Field Service</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-3 o_productivity_apps">
-                  <div class="o_nav_app_family">
-                    <span></span> Productivity Tools
-                    <div>Great Tools = Happy People</div>
-                  </div>
-                  <ul>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Communication</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/discuss">Discuss</a></li>
-                        <li><a href="https://www.odoo.com/page/discuss-groups">Mailing Lists</a></li>
-                        <li><a href="https://www.odoo.com/page/notes">Notes</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/timesheet">Timesheet</a></li>
-                    <li><a href="https://www.odoo.com/page/events">Events</a></li>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Marketing</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/marketing-automation">Automation</a></li>
-                        <li><a href="https://www.odoo.com/page/email-marketing">Email</a></li>
-                        <li><a href="https://www.odoo.com/page/social-marketing">Social</a></li>
-                        <li><a href="https://www.odoo.com/page/sms-marketing">SMS</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/survey">Survey</a></li>
-                    <li><a href="https://www.odoo.com/page/approval-workflow">Approvals</a></li>
-                    <li><a href="https://www.odoo.com/page/appointments">Appointments</a></li>
-                    <li><a href="https://www.odoo.com/page/documents">Documents</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <a href="http://www.odoo.com/apps/modules" class="o_store_link"><i class="fa fa-cube fa-fw"></i> Third party apps</a>
-          </div>
-        </li>
-        <li><a href="https://www.odoo.com/page/tour">Tour</a></li>
-        <li><a href="https://www.odoo.com/pricing">Pricing</a></li>
-        <li><a href="https://www.odoo.com/page/docs">Docs</a></li>
-      </ul>
+  </head><body><header  class="o_main_header o_has_sub_nav o_inverted index" >
+    <div style="background-color:white; width:100%; height:50px; ">
+      <input style="width:80px; padding-left:10px; height:65px;" type="image"    src="images/logo.png"/>  
+
+
     </div>
-    <nav class="navbar o_sub_nav">
-      <div class="container">
-        <div class="navbar-header visible-xs">
-            <button type="button" class="navbar-toggle collapsed text-left btn-block" data-toggle="collapse" data-target="#o_sub-menu" aria-expanded="false">
-              Navigate
-              <span class="mdi-hardware-keyboard-arrow-down pull-right"></span>
-            </button>
-        </div>
-
-        <div class="collapse navbar-collapse" id="o_sub-menu">
-          <ol class="o_breadcrumb breadcrumb nav navbar-left">
-              
-              
-
-
-
-
-
-
-              
-          </ol>
-
-          <div class="call-to-action navbar-right hidden-xs">
-            <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
-          </div>
-
-      
-         
-        </div>
-      </div>
-    </nav>
-  </header><div id="wrap" class="index">
     
-    <figure class="card top ">
+
+
+   
+
+
+</div>
+  
+                       
+  </header>
+
+ 
+                       
+
+  <div id="wrap" class="index">
+
+  
+    
+    <figure style="height:400px;" class="card top ">
       <span class="card-img" ></span>
       <div class="container text-center">
-        <h1> GEARS USER DOCUMENTATION </h1>
+        
+        <h1 style="padding-top:-190px; margin-bottom:30px;"> GEARS USER DOCUMENTATION </h1>
+        <input style="width:800px; margin: auto;" class="form-control" id="myInput" type="text" placeholder="Enter Keyword to Search...">
       </div>
     </figure>
     
     
     
       <main class="container index">
-        
+
+   
+
             
-  <section id="odoo-user-documentation"><div class="index-tree toctree-wrapper"><div class="toc-section row tutorials"><h2 class="col-sm-12">Applications</h2>
+  <section id="odoo-user-documentation" ><div class="index-tree toctree-wrapper"><div class="toc-section row tutorials"><h2 class="col-sm-12">Applications</h2>
                
-                
+    <div id="myiFrame">          
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears.php" class="card-img">
@@ -445,7 +313,25 @@
                     </a>
                 </figure>
                 </div>
-                </div><div class="toc-section row tutorials"><h2 class="col-sm-12">Practical Information</h2>
+                
+                </div>
+                
+                </div>
+                </div>
+
+
+                <script>
+                  $(document).ready(function(){
+                    $("#myInput").on("keyup", function() {
+                      var value = $(this).val().toLowerCase();
+                      $("#myiFrame").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                      });
+                    });
+                  });
+                  </script>
+
+                <div class="toc-section row tutorials"><h2 class="col-sm-12">Practical Information</h2>
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="getting_started/documentation.html" class="card-img">
@@ -544,7 +430,11 @@
                     </a>
                 </figure>
                 </div>
-                </div></div></section>
+                </div></div>
+                  
+           
+
+              </section>
 
           
         <div id="mask"></div>
