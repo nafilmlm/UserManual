@@ -42,6 +42,10 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Applications" href="applications.html" /> 
+
+    <link rel="icon" href="images/logo.png">
+
+
   </head><body><header class="o_main_header o_has_sub_nav o_inverted index">
     <div class="o_main_header_main">
       <a class="pull-left " href="/"></a>
@@ -220,7 +224,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears.php" class="card-img">
-                        <span style="background-image: url('_static/banners/discuss.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>Gears</figcaption>
                     </a>
                 </figure>
@@ -238,7 +242,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="realmax.php" class="card-img">
-                        <span style="background-image: url('_static/banners/sales.png')"></span>
+                        <span style="background-image: url('images/realmax/realmaxBanner.png')"></span>
                         <figcaption>REALMAX</figcaption>
                     </a>
                 </figure>

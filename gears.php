@@ -43,168 +43,9 @@
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Applications" href="applications.html" /> 
   </head><body><header class="o_main_header o_has_sub_nav o_inverted index">
-    <div class="o_main_header_main">
-      <a class="pull-left " href="/"></a>
-      <a href="#" class="o_mobile_menu_toggle visible-xs-block pull-right">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="mdi-navigation-menu"></span>
-      </a>
-      <div class="o_header_buttons">
-        <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
-      </div>
-      <ul class="o_primary_nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle">Apps</a>
-          <div class="dropdown-menu o_secondary_nav">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-3 o_website_apps">
-                  <div class="o_nav_app_family">
-                    <span></span> Websites
-                    <div>Build great user experience</div>
-                  </div>
-                  <ul>
-                    <li><a href="https://www.odoo.com/page/website-builder">Website Builder</a></li>
-                    <li><a href="https://www.odoo.com/page/e-commerce">eCommerce</a></li>
-                    <li><a href="https://www.odoo.com/page/blog-engine">Blogs</a></li>
-                    <li><a href="https://www.odoo.com/page/community-builder">Forums</a></li>
-                    <li><a href="https://www.odoo.com/page/learning-management-system">eLearning</a></li>
-                    <li><a href="https://www.odoo.com/page/live-chat">Live Chat</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-3 o_sale_apps">
-                  <div class="o_nav_app_family">
-                    <span></span> Sales
-                    <div>Boost your success rate</div>
-                  </div>
-                  <ul>
-                    <li><a href="https://www.odoo.com/page/sales">Sales</a></li>
-                    <li><a href="https://www.odoo.com/page/crm">CRM</a></li>
-                    <li><a href="https://www.odoo.com/page/billing">Invoicing</a></li>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Point of Sale</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/point-of-sale">Shops</a></li>
-                        <li><a href="https://www.odoo.com/page/pos-restaurant">Restaurants</a></li>
-                        <li><a href="https://www.odoo.com/page/point-of-sale-hardware">Hardware</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/subscriptions">Subscriptions</a></li>
-                    <li><a href="https://www.odoo.com/page/sign">Sign</a></li>
-                    <li><a href="https://www.odoo.com/page/rental">Rental</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-3 o_operation_apps">
-                  <div class="o_nav_app_family">
-                    <span></span> Operations
-                    <div>It's all about efficiency</div>
-                  </div>
-                  <ul>
-                    <li><a href="https://www.odoo.com/page/accounting/">Accounting</a></li>
-                    <li><a href="https://www.odoo.com/page/project-management/">Project</a></li>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Human Resources</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/referral">Referral</a></li>
-                        <li><a href="https://www.odoo.com/page/employees">Employees</a></li>
-                        <li><a href="https://www.odoo.com/page/expenses">Expenses</a></li>
-                        <li><a href="https://www.odoo.com/page/appraisal">Appraisal</a></li>
-                        <li><a href="https://www.odoo.com/page/fleet">Fleet</a></li>
-                        <li><a href="https://www.odoo.com/page/leaves">Time Off</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/warehouse">Inventory</a></li>
-                    <li><a href="https://www.odoo.com/page/purchase">Purchase</a></li>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Manufacturing</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/manufacturing">MRP</a></li>
-                        <li><a href="https://www.odoo.com/page/plm">PLM</a></li>
-                        <li><a href="https://www.odoo.com/page/maintenance">Maintenance</a></li>
-                        <li><a href="https://www.odoo.com/page/quality">Quality</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/helpdesk">Helpdesk</a></li>
-                    <li><a href="https://www.odoo.com/page/field-service-management">Field Service</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-3 o_productivity_apps">
-                  <div class="o_nav_app_family">
-                    <span></span> Productivity Tools
-                    <div>Great Tools = Happy People</div>
-                  </div>
-                  <ul>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Communication</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/discuss">Discuss</a></li>
-                        <li><a href="https://www.odoo.com/page/discuss-groups">Mailing Lists</a></li>
-                        <li><a href="https://www.odoo.com/page/notes">Notes</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/timesheet">Timesheet</a></li>
-                    <li><a href="https://www.odoo.com/page/events">Events</a></li>
-                    <li class="dropdown">
-                      <a href="#0" class="dropdown-toggle">Marketing</a>
-                      <ul>
-                        <li><a href="https://www.odoo.com/page/marketing-automation">Automation</a></li>
-                        <li><a href="https://www.odoo.com/page/email-marketing">Email</a></li>
-                        <li><a href="https://www.odoo.com/page/social-marketing">Social</a></li>
-                        <li><a href="https://www.odoo.com/page/sms-marketing">SMS</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="https://www.odoo.com/page/survey">Survey</a></li>
-                    <li><a href="https://www.odoo.com/page/approval-workflow">Approvals</a></li>
-                    <li><a href="https://www.odoo.com/page/appointments">Appointments</a></li>
-                    <li><a href="https://www.odoo.com/page/documents">Documents</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <a href="http://www.odoo.com/apps/modules" class="o_store_link"><i class="fa fa-cube fa-fw"></i> Third party apps</a>
-          </div>
-        </li>
-        <li><a href="https://www.odoo.com/page/tour">Tour</a></li>
-        <li><a href="https://www.odoo.com/pricing">Pricing</a></li>
-        <li><a href="https://www.odoo.com/page/docs">Docs</a></li>
-      </ul>
-    </div>
-    <nav class="navbar o_sub_nav">
-      <div class="container">
-        <div class="navbar-header visible-xs">
-            <button type="button" class="navbar-toggle collapsed text-left btn-block" data-toggle="collapse" data-target="#o_sub-menu" aria-expanded="false">
-              Navigate
-              <span class="mdi-hardware-keyboard-arrow-down pull-right"></span>
-            </button>
-        </div>
-
-        <div class="collapse navbar-collapse" id="o_sub-menu">
-          <ol class="o_breadcrumb breadcrumb nav navbar-left">
-              
-              
-
-
-
-
-<script type="text/javascript">$('#searchbox').show(0);</script>
-            
-
-            
-              <li class="divider"></li>
-            
-          </ul>
-
-          <ul class="navbar-nav navbar-right nav o_sub_nav_actions">
-            
-
-            
-
-
-            
-          </ul>
-        </div>
-      </div>
-    </nav>
+ 
+  
+     
   </header><div id="wrap" class="index">
     
     <figure class="card top ">
@@ -223,7 +64,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/accountsReceivable.php" class="card-img">
-                        <span style="background-image: url('_static/banners/general.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>Accounts Receivable</figcaption>
                     </a>
                 </figure>
@@ -232,7 +73,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/inventory.php" class="card-img">
-                        <span style="background-image: url('_static/banners/discuss.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>Inventory</figcaption>
                     </a>
                 </figure>
@@ -241,7 +82,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/approvalSetup.php" class="card-img">
-                        <span style="background-image: url('_static/banners/crm.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>Approval Setup</figcaption>
                     </a>
                 </figure>
@@ -250,7 +91,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/assetManagement.php" class="card-img">
-                        <span style="background-image: url('_static/banners/sales.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>Asset Management</figcaption>
                     </a>
                 </figure>
@@ -259,7 +100,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/customeReport.php" class="card-img">
-                        <span style="background-image: url('_static/banners/purchase.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>Custome Report</figcaption>
                     </a>
                 </figure>
@@ -268,7 +109,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/GEARSUserManualLogistics.php" class="card-img">
-                        <span style="background-image: url('_static/banners/accounting.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>GEARS User Manual-Logistics</figcaption>
                     </a>
                 </figure>
@@ -277,7 +118,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/GEARSUserManualAccountspayable.php" class="card-img">
-                        <span style="background-image: url('_static/banners/subscriptions.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>GEARS User Manual-Accounts payable</figcaption>
                     </a>
                 </figure>
@@ -286,7 +127,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/generalLedger.php" class="card-img">
-                        <span style="background-image: url('_static/banners/project.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>General Ledger</figcaption>
                     </a>
                 </figure>
@@ -295,7 +136,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/salesMarketing.php" class="card-img">
-                        <span style="background-image: url('_static/banners/timesheets.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>Sales & Marketing</figcaption>
                     </a>
                 </figure>
@@ -304,7 +145,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/systemAdmin.php" class="card-img">
-                        <span style="background-image: url('_static/banners/fsm.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>System Admin</figcaption>
                     </a>
                 </figure>
@@ -313,7 +154,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/userManualConfiguration.php" class="card-img">
-                        <span style="background-image: url('_static/banners/sign.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>User Manual-Configuration</figcaption>
                     </a>
                 </figure>
@@ -322,7 +163,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/userManualDashboard.php" class="card-img">
-                        <span style="background-image: url('_static/banners/pos.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>User Manual-Dashboard</figcaption>
                     </a>
                 </figure>
@@ -331,7 +172,7 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/userManualProcurement.php" class="card-img">
-                        <span style="background-image: url('_static/banners/gears.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>User Manual-Procurement</figcaption>
                     </a>
                 </figure>
@@ -340,209 +181,12 @@
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears/userManualTreasury.php" class="card-img">
-                        <span style="background-image: url('_static/banners/manufacturing.png')"></span>
+                        <span style="background-image: url('images/gears/gearsBanner.png')"></span>
                         <figcaption>User Manual-Treasury</figcaption>
                     </a>
                 </figure>
                 </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="iot.html" class="card-img">
-                        <span style="background-image: url('_static/banners/iot.png')"></span>
-                        <figcaption>Internet of Things (IoT)</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="website.html" class="card-img">
-                        <span style="background-image: url('_static/banners/seo.png')"></span>
-                        <figcaption>Website</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="ecommerce.html" class="card-img">
-                        <span style="background-image: url('_static/banners/ecommerce.png')"></span>
-                        <figcaption>eCommerce</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="helpdesk.html" class="card-img">
-                        <span style="background-image: url('_static/banners/helpdesk.png')"></span>
-                        <figcaption>Helpdesk</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="live_chat.html" class="card-img">
-                        <span style="background-image: url('_static/banners/livechat.png')"></span>
-                        <figcaption>Live Chat</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="sms_marketing.html" class="card-img">
-                        <span style="background-image: url('_static/banners/sms.png')"></span>
-                        <figcaption>SMS Marketing</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="marketing_automation.html" class="card-img">
-                        <span style="background-image: url('_static/banners/marketing_automation.png')"></span>
-                        <figcaption>Marketing Automation</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="survey.html" class="card-img">
-                        <span style="background-image: url('_static/banners/survey.png')"></span>
-                        <figcaption>Survey</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="expense/expense.html" class="card-img">
-                        <span style="background-image: url('_static/banners/expense.png')"></span>
-                        <figcaption>Expenses</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="studio.html" class="card-img">
-                        <span style="background-image: url('_static/banners/studio.png')"></span>
-                        <figcaption>Studio</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="mobile/firebase.html" class="card-img">
-                        <span style="background-image: url('_static/banners/mobile.png')"></span>
-                        <figcaption>Mobile</figcaption>
-                    </a>
-                </figure>
-                </div>
-                </div><div class="toc-section row tutorials"><h2 class="col-sm-12">Practical Information</h2>
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="getting_started/documentation.html" class="card-img">
-                        <span style="background-image: url('_static/banners/getting_started.png')"></span>
-                        <figcaption>Basics of the QuickStart Methodology</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="odoo_sh/documentation.html" class="card-img">
-                        <span style="background-image: url('_static/banners/odoo_sh.png')"></span>
-                        <figcaption>Odoo.sh</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/documentation.html" class="card-img">
-                        <span style="background-image: url('_static/banners/users.png')"></span>
-                        <figcaption>Users and Features</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/db_online.html" class="card-img">
-                        <span style="background-image: url('_static/banners/db_online.png')"></span>
-                        <figcaption>Online Database management</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/db_premise.html" class="card-img">
-                        <span style="background-image: url('_static/banners/db_premise.png')"></span>
-                        <figcaption>On-premises Database management</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/hosting_changes.html" class="card-img">
-                        <span style="background-image: url('_static/banners/hosting_changes.png')"></span>
-                        <figcaption>Hosting Changes</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/db_upgrade.html" class="card-img">
-                        <span style="background-image: url('_static/banners/db-upgrade.png')"></span>
-                        <figcaption>Upgrade</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="portal/my_odoo_portal.html" class="card-img">
-                        <span style="background-image: url('_static/banners/my_odoo_portal.png')"></span>
-                        <figcaption>My Gears Portal</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="support.html" class="card-img">
-                        <span style="background-image: url('_static/banners/support.png')"></span>
-                        <figcaption>Support</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="legal.html" class="card-img">
-                        <span style="background-image: url('_static/banners/legal.png')"></span>
-                        <figcaption>Legal</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="contributing.html" class="card-img">
-                        <span style="background-image: url('_static/banners/contributing.png')"></span>
-                        <figcaption>Contributing</figcaption>
-                    </a>
-                </figure>
-                </div>
+               
                 </div></div></section>
 
           
