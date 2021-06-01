@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gears User Documentation &#8212; Gears 14.0 documentation</title>
-    <link rel="stylesheet" href="css/index/_style.css" type="text/css" />
-    <link rel="stylesheet" href="css/index/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="css/index/accounting.css" type="text/css" />
-    <link rel="stylesheet" href="css/index/legal.css" type="text/css" />
+    <link rel="stylesheet" href="css/_style.css" type="text/css" />
+    <link rel="stylesheet" href="css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="css/accounting.css" type="text/css" />
+    <link rel="stylesheet" href="css/legal.css" type="text/css" />
  
     <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
@@ -45,6 +45,22 @@
 
     <link rel="icon" href="images/logo.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    
+    <script>
+                  $(document).ready(function(){
+                    $("#myInput").on("keyup", function() {
+                      var value = $(this).val().toLowerCase();
+                      $("#myiFrame").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                      });
+                    });
+                  });
+                  </script>
 
   </head><body><header  class="o_main_header o_has_sub_nav o_inverted index" >
     <div style="background-color:white; width:100%; height:50px; ">
@@ -71,11 +87,12 @@
   
     
     <figure style="height:400px;" class="card top ">
-      <span class="card-img" ></span>
+      <span class="card-header-img" ></span>
       <div class="container text-center">
         
         <h1 style="padding-top:-190px; margin-bottom:30px;"> GEARS USER DOCUMENTATION </h1>
         <input style="width:800px; margin: auto;" class="form-control" id="myInput" type="text" placeholder="Enter Keyword to Search...">
+        
       </div>
     </figure>
     
@@ -83,12 +100,15 @@
     
       <main class="container index">
 
-   
+      <div id="myiFrame">
+
+      
+        
 
             
   <section id="odoo-user-documentation" ><div class="index-tree toctree-wrapper"><div class="toc-section row tutorials"><h2 class="col-sm-12">Applications</h2>
                
-    <div id="myiFrame">          
+             
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="gears.php" class="card-img">
@@ -320,16 +340,7 @@
                 </div>
 
 
-                <script>
-                  $(document).ready(function(){
-                    $("#myInput").on("keyup", function() {
-                      var value = $(this).val().toLowerCase();
-                      $("#myiFrame").filter(function() {
-                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                      });
-                    });
-                  });
-                  </script>
+              
 
                 <div class="toc-section row tutorials"><h2 class="col-sm-12">Practical Information</h2>
                 <div class="col-sm-6 col-md-3">
@@ -436,6 +447,9 @@
 
               </section>
 
+</div>
+
+              
           
         <div id="mask"></div>
       </main>
@@ -457,7 +471,7 @@
     </div>
   </div>
   <footer>
-    <div id="footer" class="container">
+    <!-- <div id="footer" class="container">
       <span class=" o_logo_inverse center-block o_footer_logo"></span>
       <div class="row">
         <div class="col-sm-7 col-md-7 col-lg-6">
@@ -530,7 +544,7 @@
           <a href="mailto:info@odoo.com"><i class="fa fa-envelope"></i></a>
         </div>
       </div>
-    </div>
+    </div> -->
   </footer><script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

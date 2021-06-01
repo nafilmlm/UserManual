@@ -148,59 +148,12 @@ color:purple;
   </style>
 
   </head><body>
-
-        <nav class="o_side_nav border-end" >
-
-    
-
-  <div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-
-<script>
-  $('dropdown-btn').click(function(){
-$(this).toggleClass('down');
-});
-.down i{
-transform:rotate(90deg);
-}
-</script>
-
-  <button style="outline-color:white;" class="dropdown-btn">Dropdown<i class="fa fa-angle-right purple-color"></i>
-    
-  </button>
-  <div class="dropdown-container">
-    <button style="outline-color:white;" class="dropdown-btn">Dropdown<i class="fa fa-angle-right purple-color"></i> </button>
-    <div class="dropdown-container">
-    <button style="outline-color:white;" class="dropdown-btn"><i class="fa fa-angle-right purple-color"></i>Accounts Receivable </button>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-    </div>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-
-    <button style="outline-color:white;" class="dropdown-btn"><i class="fa fa-angle-right purple-color"></i>Dropdown </button>
-    <div class="dropdown-container">
-    <button style="outline-color:white;" class="dropdown-btn"><i class="fa fa-angle-right purple-color"></i>Dropdown </button>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-    </div>
-  </div>
-  <a href="#contact">Search</a>
-</div>
  
 
-</div>
-
-
-
-    </nav>
+      
     <header class="o_main_header border-bottom navbar navbar-light navbar-expand-lg"><div class="o_logo_wrapper">
       <a href="../index.html" class="o_logo">
-          <img src="../_static/img/logos/.svg" height="20" alt="Gears"/>
-          <span>docs</span>
+          <img  src="../images/logo.png" style="width:75px; height:65px;" type="image"   alt="Gears"/>
       </a>
 </div>
 <div id="searchbox" class="o_search_wrapper flex-grow-1 pe-lg-2" role="search">
@@ -274,19 +227,12 @@ transform:rotate(90deg);
     </div>
     <div id="wrap">
 
-        <main class="container-fluid ">
-                <article id="o_content" class="doc-body">
-                    <div role="main"> 
-  <section id="general">
-</div>
-</section>
 
-<style>
-  .container{padding: 20px; width: 1250px;}
-</style> 
 
-<div class="container">
-  <iframe id="myiFrame" style="width:100%; height:800px; margin-top:-120px; margin-left:-80px; pointer-events: ;" src="https://docs.google.com/document/d/e/2PACX-1vSL6LTkE1ThP9U00y0KzKvZrrcsGG_EwxmoiOXKbjTUNShubVr83HezPfzGqGwdOevpaviyy-ki1BJ0/pub?embedded=true" > </iframe>
+ 
+
+<div style="padding-left:180px; width: 100%;"}>
+  <iframe id="myiFrame"  style="width:1180px; height:900px; margin-top:-60px; " src="https://docs.google.com/document/d/1pMaSTmmmgrWdATww4iZsZw49xc4UTozyFS-MxWsm7XM/edit?usp=sharing" > </iframe>
 
 
                         <script>
@@ -301,8 +247,7 @@ transform:rotate(90deg);
                         </script>
 
   </div>
-</article>
-</main>
+
     </footer>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>

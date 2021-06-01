@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Odoo User Documentation &#8212; Odoo 14.0 documentation</title>
-    <link rel="stylesheet" href="css/index/_style.css" type="text/css" />
-    <link rel="stylesheet" href="css/index/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="css/index/accounting.css" type="text/css" />
-    <link rel="stylesheet" href="css/index/legal.css" type="text/css" />
+    <link rel="stylesheet" href="css/_style.css" type="text/css" />
+    <link rel="stylesheet" href="css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="css/accounting.css" type="text/css" />
+    <link rel="stylesheet" href="css/legal.css" type="text/css" />
  
     <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
@@ -210,7 +210,7 @@
     </div>
   </div>
   <footer>
-    <div id="footer" class="container">
+    <!-- <div id="footer" class="container">
       <span class=" o_logo_inverse center-block o_footer_logo"></span>
       <div class="row">
         <div class="col-sm-7 col-md-7 col-lg-6">
@@ -283,7 +283,7 @@
           <a href="mailto:info@odoo.com"><i class="fa fa-envelope"></i></a>
         </div>
       </div>
-    </div>
+    </div> -->
   </footer><script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
