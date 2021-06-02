@@ -52,6 +52,8 @@
       <span class="card-img" ></span>
       <div class="container text-center">
         <h1> Gears User Documentation </h1>
+        <input style="width:800px; margin: auto;" class="form-control" id="myInput" type="text" placeholder="Enter Keyword to Search...">
+
       </div>
     </figure>
     
