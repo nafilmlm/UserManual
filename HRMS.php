@@ -222,106 +222,106 @@
   <section id="odoo-user-documentation"><div class="index-tree toctree-wrapper"><div class="toc-section row tutorials"><h2 class="col-sm-12">Applications</h2>
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="accountsPayable.php" class="card-img">
+                    <a href="HRMS/attendance.php" class="card-img">
                         <span style="background-image: url('_static/banners/general.png')"></span>
-                        <figcaption>Accounts Payable</figcaption>
+                        <figcaption>Attendance</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="discuss.html" class="card-img">
+                    <a href="HRMS/employeeMaster.php" class="card-img">
                         <span style="background-image: url('_static/banners/discuss.png')"></span>
-                        <figcaption>Discuss</figcaption>
+                        <figcaption>Employee Master</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="crm.html" class="card-img">
+                    <a href="HRMS/expenseClaimHRMS.php" class="card-img">
                         <span style="background-image: url('_static/banners/crm.png')"></span>
-                        <figcaption>CRM</figcaption>
+                        <figcaption>Expense Claim - HRMS</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="sales.html" class="card-img">
+                    <a href="HRMS/finalStatementHRMS.php" class="card-img">
                         <span style="background-image: url('_static/banners/sales.png')"></span>
-                        <figcaption>Sales</figcaption>
+                        <figcaption>Final Statement - HRMS</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="purchase.html" class="card-img">
+                    <a href="HRMS/HRMSDashboard.php" class="card-img">
                         <span style="background-image: url('_static/banners/purchase.png')"></span>
-                        <figcaption>Purchase</figcaption>
+                        <figcaption>HRMS Dashboard</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="accounting.html" class="card-img">
+                    <a href="HRMS/leaveManagementHRMS.php" class="card-img">
                         <span style="background-image: url('_static/banners/accounting.png')"></span>
-                        <figcaption>Invoicing and Accounting</figcaption>
+                        <figcaption>Leave Management HRMS</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="subscriptions.html" class="card-img">
+                    <a href="HRMS/loanHRMS.php" class="card-img">
                         <span style="background-image: url('_static/banners/subscriptions.png')"></span>
-                        <figcaption>Subscriptions</figcaption>
+                        <figcaption>Loan-HRMS</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="project.html" class="card-img">
+                    <a href="HRMS/otherMaster.php" class="card-img">
                         <span style="background-image: url('_static/banners/project.png')"></span>
-                        <figcaption>Project</figcaption>
+                        <figcaption>Other Master</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="timesheets.html" class="card-img">
+                    <a href="HRMS/overTImeManagement.php" class="card-img">
                         <span style="background-image: url('_static/banners/timesheets.png')"></span>
-                        <figcaption>Timesheets</figcaption>
+                        <figcaption>Over TIme Management</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="fsm.html" class="card-img">
+                    <a href="HRMS/payrollHRMS.php" class="card-img">
                         <span style="background-image: url('_static/banners/fsm.png')"></span>
-                        <figcaption>Field Service</figcaption>
+                        <figcaption>Payroll - HRMS</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="sign.html" class="card-img">
+                    <a href="HRMS/reportHRMS.php" class="card-img">
                         <span style="background-image: url('_static/banners/sign.png')"></span>
-                        <figcaption>Sign</figcaption>
+                        <figcaption>Report - HRMS</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="point_of_sale.html" class="card-img">
+                    <a href="HRMS/point_of_sale.html" class="card-img">
                         <span style="background-image: url('_static/banners/pos.png')"></span>
                         <figcaption>Point of Sale</figcaption>
                     </a>
@@ -330,7 +330,7 @@
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="inventory.html" class="card-img">
+                    <a href="HRMS/inventory.html" class="card-img">
                         <span style="background-image: url('_static/banners/inventory.png')"></span>
                         <figcaption>Inventory</figcaption>
                     </a>
@@ -339,7 +339,7 @@
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="manufacturing.html" class="card-img">
+                    <a href="HRMS/manufacturing.html" class="card-img">
                         <span style="background-image: url('_static/banners/manufacturing.png')"></span>
                         <figcaption>Manufacturing</figcaption>
                     </a>
@@ -348,7 +348,7 @@
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="iot.html" class="card-img">
+                    <a href="HRMS/iot.html" class="card-img">
                         <span style="background-image: url('_static/banners/iot.png')"></span>
                         <figcaption>Internet of Things (IoT)</figcaption>
                     </a>
@@ -357,7 +357,7 @@
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="website.html" class="card-img">
+                    <a href="HRMS/website.html" class="card-img">
                         <span style="background-image: url('_static/banners/seo.png')"></span>
                         <figcaption>Website</figcaption>
                     </a>
@@ -366,7 +366,7 @@
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="ecommerce.html" class="card-img">
+                    <a href="HRMS/ecommerce.html" class="card-img">
                         <span style="background-image: url('_static/banners/ecommerce.png')"></span>
                         <figcaption>eCommerce</figcaption>
                     </a>
@@ -375,7 +375,7 @@
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="helpdesk.html" class="card-img">
+                    <a href="HRMS/helpdesk.html" class="card-img">
                         <span style="background-image: url('_static/banners/helpdesk.png')"></span>
                         <figcaption>Helpdesk</figcaption>
                     </a>
@@ -384,7 +384,7 @@
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="live_chat.html" class="card-img">
+                    <a href="HRMS/live_chat.html" class="card-img">
                         <span style="background-image: url('_static/banners/livechat.png')"></span>
                         <figcaption>Live Chat</figcaption>
                     </a>
@@ -393,7 +393,7 @@
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="sms_marketing.html" class="card-img">
+                    <a href="HRMS/sms_marketing.html" class="card-img">
                         <span style="background-image: url('_static/banners/sms.png')"></span>
                         <figcaption>SMS Marketing</figcaption>
                     </a>

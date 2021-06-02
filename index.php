@@ -50,20 +50,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    
-    <script>
-                  $(document).ready(function(){
-                    $("#myInput").on("keyup", function() {
-                      var value = $(this).val().toLowerCase();
-                      $("#myiFrame").filter(function() {
-                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                      });
-                    });
-                  });
-                  </script>
+   
 
   </head><body><header  class="o_main_header o_has_sub_nav o_inverted index" >
-    <div style="background-color:white; width:100%; height:50px; ">
+    <div style="background-color:white; width:100%; height:50px; position: fixed; overflow-y: scroll; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden;">
       <input style="width:80px; padding-left:10px; height:65px;" type="image"    src="images/logo.png"/>  
 
 
@@ -91,8 +81,29 @@
       <div class="container text-center">
         
         <h1 style="padding-top:-190px; margin-bottom:30px;"> GEARS USER DOCUMENTATION </h1>
-        <input style="width:800px; margin: auto;" class="form-control" id="myInput" type="text" placeholder="Enter Keyword to Search...">
-        
+        <input style="width:800px; margin: auto;" class="form-control" id="" type="text" onkeyup="showHint(this.value)" placeholder="Enter Keyword to Search...">
+      
+    <script>
+                  function showHint(str) {
+  //check if input field is empty
+  if (str.length == 0) {
+    document.getElementById("txt_hint").innerHTML = "";
+    return;
+  } else {
+    //if the field is not empty, create an XMLHttpRequest to get suggestions
+    var xmlhttp = new XMLHttpRequest();
+    // server response is ready, we call the function
+    xmlhttp.onreadystatechange = function () {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        document.getElementById("txt_hint").innerHTML = xmlhttp.responseText;
+      }
+    };
+    xmlhttp.open("GET", "gears.php" + str, true);
+    xmlhttp.send();
+  }
+}
+                  </script>
+
       </div>
     </figure>
     
@@ -106,8 +117,8 @@
         
 
             
-  <section id="odoo-user-documentation" ><div class="index-tree toctree-wrapper"><div class="toc-section row tutorials"><h2 class="col-sm-12">Applications</h2>
-               
+  <section id="odoo-user-documentation" ><div class="index-tree toctree-wrapper"><div class="toc-section row tutorials"><h2 class="col-sm-12">Applications   </h2>
+  <span id="txt_hint" style="background-color:red;"></span>
              
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
