@@ -152,10 +152,10 @@ color:purple;
 
       
     <header class="o_main_header border-bottom navbar navbar-light navbar-expand-lg"><div class="o_logo_wrapper">
-      <a href="../index.html" class="o_logo">
-          <img  src="../images/logo.png" style="width:75px; height:65px;" type="image"   alt="Gears"/>
-      </a>
+    <?php include "../headerLogo_.html"; ?>
+
 </div>
+<?php include "../backButton.html"; ?>
 <div id="searchbox" class="o_search_wrapper flex-grow-1 pe-lg-2" role="search">
    
 

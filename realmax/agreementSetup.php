@@ -42,7 +42,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
-    
+    <?php include "../favicon.html" ?>
+
 
   <style>
   /* Fixed sidenav, full height */
@@ -147,15 +148,16 @@ color:purple;
         
   </style>
 
+
   </head><body>
  
 
       
     <header class="o_main_header border-bottom navbar navbar-light navbar-expand-lg"><div class="o_logo_wrapper">
-      <a href="../index.html" class="o_logo">
-          <img  src="../images/logo.png" style="width:75px; height:65px;" type="image"   alt="Gears"/>
-      </a>
+    <?php include "../headerLogo_.html"; ?>
 </div>
+<?php include "../backButton.html"; ?>
+
 <div id="searchbox" class="o_search_wrapper flex-grow-1 pe-lg-2" role="search">
    
 

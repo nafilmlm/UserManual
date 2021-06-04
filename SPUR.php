@@ -41,17 +41,27 @@
   
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Applications" href="applications.html" /> 
+    <link rel="next" title="Applications" href="applications.html" />
+    <?php include "favicon.html" ?>
+ 
   </head><body><header class="o_main_header o_has_sub_nav o_inverted index">
  
-  
+  <?php include "headerLogo.html" ?>      
+    
+
+
+    </div>
+    
      
   </header><div id="wrap" class="index">
     
-    <figure class="card top ">
-      <span class="card-img" ></span>
+    <figure class="card top" style="height:400px;">
+      <span class="card-header-img" ></span>
       <div class="container text-center">
-        <h1> Gears User Documentation </h1>
+        <h1 style="padding-bottom:19px;"> SPUR USER DOCUMENTATION </h1>
+        <input style="width:800px; margin: auto;" class="form-control" id="myInput" type="text" onkeyup="myFunction()" placeholder="Enter Keyword to Search...">
+
+
       </div>
     </figure>
     
@@ -61,7 +71,9 @@
         
             
   <section id="odoo-user-documentation"><div class="index-tree toctree-wrapper"><div class="toc-section row tutorials"><h2 class="col-sm-12">Applications</h2>
-                <div class="col-sm-6 col-md-3">
+             
+  <ul id="myUL">
+  <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="spur/accountsReceivable.php" class="card-img">
                         <span style="background-image: url('_static/banners/general.png')"></span>
@@ -195,205 +207,11 @@
                     </a>
                 </figure>
                 </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="iot.html" class="card-img">
-                        <span style="background-image: url('_static/banners/iot.png')"></span>
-                        <figcaption>Internet of Things (IoT)</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="website.html" class="card-img">
-                        <span style="background-image: url('_static/banners/seo.png')"></span>
-                        <figcaption>Website</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="ecommerce.html" class="card-img">
-                        <span style="background-image: url('_static/banners/ecommerce.png')"></span>
-                        <figcaption>eCommerce</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="helpdesk.html" class="card-img">
-                        <span style="background-image: url('_static/banners/helpdesk.png')"></span>
-                        <figcaption>Helpdesk</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="live_chat.html" class="card-img">
-                        <span style="background-image: url('_static/banners/livechat.png')"></span>
-                        <figcaption>Live Chat</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="sms_marketing.html" class="card-img">
-                        <span style="background-image: url('_static/banners/sms.png')"></span>
-                        <figcaption>SMS Marketing</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="marketing_automation.html" class="card-img">
-                        <span style="background-image: url('_static/banners/marketing_automation.png')"></span>
-                        <figcaption>Marketing Automation</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="survey.html" class="card-img">
-                        <span style="background-image: url('_static/banners/survey.png')"></span>
-                        <figcaption>Survey</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="expense/expense.html" class="card-img">
-                        <span style="background-image: url('_static/banners/expense.png')"></span>
-                        <figcaption>Expenses</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="studio.html" class="card-img">
-                        <span style="background-image: url('_static/banners/studio.png')"></span>
-                        <figcaption>Studio</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="mobile/firebase.html" class="card-img">
-                        <span style="background-image: url('_static/banners/mobile.png')"></span>
-                        <figcaption>Mobile</figcaption>
-                    </a>
-                </figure>
-                </div>
-                </div><div class="toc-section row tutorials"><h2 class="col-sm-12">Practical Information</h2>
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="getting_started/documentation.html" class="card-img">
-                        <span style="background-image: url('_static/banners/getting_started.png')"></span>
-                        <figcaption>Basics of the QuickStart Methodology</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="odoo_sh/documentation.html" class="card-img">
-                        <span style="background-image: url('_static/banners/odoo_sh.png')"></span>
-                        <figcaption>Odoo.sh</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/documentation.html" class="card-img">
-                        <span style="background-image: url('_static/banners/users.png')"></span>
-                        <figcaption>Users and Features</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/db_online.html" class="card-img">
-                        <span style="background-image: url('_static/banners/db_online.png')"></span>
-                        <figcaption>Online Database management</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/db_premise.html" class="card-img">
-                        <span style="background-image: url('_static/banners/db_premise.png')"></span>
-                        <figcaption>On-premises Database management</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/hosting_changes.html" class="card-img">
-                        <span style="background-image: url('_static/banners/hosting_changes.png')"></span>
-                        <figcaption>Hosting Changes</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="db_management/db_upgrade.html" class="card-img">
-                        <span style="background-image: url('_static/banners/db-upgrade.png')"></span>
-                        <figcaption>Upgrade</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="portal/my_odoo_portal.html" class="card-img">
-                        <span style="background-image: url('_static/banners/my_odoo_portal.png')"></span>
-                        <figcaption>My spur Portal</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="support.html" class="card-img">
-                        <span style="background-image: url('_static/banners/support.png')"></span>
-                        <figcaption>Support</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="legal.html" class="card-img">
-                        <span style="background-image: url('_static/banners/legal.png')"></span>
-                        <figcaption>Legal</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="contributing.html" class="card-img">
-                        <span style="background-image: url('_static/banners/contributing.png')"></span>
-                        <figcaption>Contributing</figcaption>
-                    </a>
-                </figure>
-                </div>
-                </div></div></section>
+</ul>
+
+</div>
+</div>
+      </section>
 
           
         <div id="mask"></div>
@@ -500,5 +318,26 @@
     ga('set', 'anonymizeIp', true);
     ga('send','pageview');
     </script>
+
+    
+<script>
+function myFunction() {
+    var input, filter, ul, div, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    div = ul.getElementsByTagName("div");
+    for (i = 0; i < div.length; i++) {
+        a = div[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+</script>
+
   </body>
 </html>

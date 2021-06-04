@@ -41,17 +41,27 @@
   
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Applications" href="applications.html" /> 
+    <link rel="next" title="Applications" href="applications.html" />
+    <?php include "favicon.html" ?>
+ 
   </head><body><header class="o_main_header o_has_sub_nav o_inverted index">
  
-  
+  <?php include "headerLogo.html" ?>      
+    
+
+
+    </div>
+    
      
   </header><div id="wrap" class="index">
     
-    <figure class="card top ">
-      <span class="card-img" ></span>
+    <figure class="card top" style="height:400px;">
+      <span class="card-header-img" ></span>
       <div class="container text-center">
-        <h1> Realmax User Documentation </h1>
+        <h1 style="padding-bottom:19px;"> REALMAX USER DOCUMENTATION </h1>
+        <input style="width:800px; margin: auto;" class="form-control" id="myInput" type="text" onkeyup="myFunction()" placeholder="Enter Keyword to Search...">
+
+
       </div>
     </figure>
     
@@ -61,7 +71,9 @@
         
             
   <section id="odoo-user-documentation"><div class="index-tree toctree-wrapper"><div class="toc-section row tutorials"><h2 class="col-sm-12">Applications</h2>
-                <div class="col-sm-6 col-md-3">
+             
+  <ul id="myUL">
+  <div class="col-sm-6 col-md-3">
                 <figure class="card">
                     <a href="realmax/customerServices.php" class="card-img">
                         <span style="background-image: url('images/realmax/realmaxBanner.png')"></span>
@@ -189,7 +201,12 @@
                 </div>
                 
                
-                </div></div></section>
+            
+</ul>
+
+</div>
+</div>
+      </section>
 
           
         <div id="mask"></div>
@@ -296,5 +313,26 @@
     ga('set', 'anonymizeIp', true);
     ga('send','pageview');
     </script>
+
+    
+<script>
+function myFunction() {
+    var input, filter, ul, div, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    div = ul.getElementsByTagName("div");
+    for (i = 0; i < div.length; i++) {
+        a = div[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+</script>
+
   </body>
 </html>

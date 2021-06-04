@@ -42,6 +42,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
+
+
     
 
   <style>
@@ -143,24 +145,38 @@ color:purple;
   
 }
 
+/*back button hover */
+.fa-chevron-left:hover {
+  color: darkred;
+  border: none;
+    outline: none;
+}
+.back-button:active {
+ 
+border:none;
+}
 
         
   </style>
+  
 
   </head><body>
  
 
       
     <header class="o_main_header border-bottom navbar navbar-light navbar-expand-lg"><div class="o_logo_wrapper">
-      <a href="../index.html" class="o_logo">
-          <img  src="../images/logo.png" style="width:75px; height:65px;" type="image"   alt="Gears"/>
-      </a>
+    <?php include "../headerLogo_.html"; ?>
+
 </div>
+<?php include "../backButton.html"; ?>
+
 <div id="searchbox" class="o_search_wrapper flex-grow-1 pe-lg-2" role="search">
    
 
+   
 
-    <input class="form-control" id="myInput" type="text" placeholder="Enter Keyword to Search...">
+    <input class="form-control" id="myInput" type="text" onkeyup="myFunction()" placeholder="Enter Keyword to Search...">
+
 
 
 </div>
@@ -232,20 +248,16 @@ color:purple;
  
 
 <div style="padding-left:180px; width: 100%;"}>
-  <iframe id="myiFrame"  style="width:1180px; height:900px; margin-top:-60px; " src="https://docs.google.com/document/d/1YPhAB5yCOpFrKXEdt3_mIemUj6ctWTD-wjRRw_z1Fg4/edit?usp=sharing" > </iframe>
+<ul id="myUL">
+  <div>
+  <iframe style="width:1180px; height:900px; margin-top:-60px; " src="https://docs.google.com/document/d/1YPhAB5yCOpFrKXEdt3_mIemUj6ctWTD-wjRRw_z1Fg4/edit?usp=sharing" > </iframe>
+  </div>
 
+  <div>
+    dsds
+  </div>
+  </ul>
 
-
-                        <script>
-                        $(document).ready(function(){
-                          $("#myInput").on("keyup", function() {
-                            var value = $(this).val().toLowerCase();
-                            $("#myiFrame").filter(function() {
-                              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                            });
-                          });
-                        });
-                        </script>
 
   </div>
 
@@ -299,6 +311,26 @@ for (i = 0; i < dropdown.length; i++) {
 </script>
 
 
+
+<!-- search funtion -->
+<script>
+function myFunction() {
+    var input, filter, ul, div, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    div = ul.getElementsByTagName("div");
+    for (i = 0; i < div.length; i++) {
+        a = div[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+</script>
 
   </body>
 </html>
