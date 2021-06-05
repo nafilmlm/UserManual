@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Odoo User Documentation &#8212; Odoo 14.0 documentation</title>
+    <title>Gears User Documentation &#8212; Gears 14.0 documentation</title>
     <link rel="stylesheet" href="css/_style.css" type="text/css" />
     <link rel="stylesheet" href="css/pygments.css" type="text/css" />
     <link rel="stylesheet" href="css/accounting.css" type="text/css" />
@@ -113,7 +113,7 @@
                 <figure class="card">
                     <a href="gears/customeReport.php" class="card-img">
                         <span style="background-image: url('images/gears/gearsBanner.png')"></span>
-                        <figcaption>Custome Report</figcaption>
+                        <figcaption>Custom Report</figcaption>
                     </a>
                 </figure>
                 </div>

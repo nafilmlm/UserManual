@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>General &#8212; Gears 14.0 documentation</title>
+    <title>Agreement Setup &#8212; Gears 14.0 documentation</title>
  
 
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -222,7 +222,7 @@ color:purple;
         <li class="right" >
           <a href="settings/users_and_features.html" title="Users and Features"
              accesskey="P">previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../index.html">Odoo 14.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Gears 14.0 documentation</a> &#187;</li>
           <li class="nav-item nav-item-1"><a href="../applications.html" accesskey="U">Applications</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">General</a></li> 
       </ul>

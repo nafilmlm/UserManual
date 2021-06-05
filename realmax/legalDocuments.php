@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>General &#8212; Gears 14.0 documentation</title>
+    <title>Legal Documents &#8212; Gears 14.0 documentation</title>
  
 
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
