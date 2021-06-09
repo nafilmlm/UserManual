@@ -1,13 +1,11 @@
 <?php
-
 namespace GuzzleHttp\Psr7;
 
 use Psr\Http\Message\StreamInterface;
 
+
 /**
- * Decorator used to return only a subset of a stream.
- *
- * @final
+ * Decorator used to return only a subset of a stream
  */
 class LimitStream implements StreamInterface
 {
@@ -23,7 +21,7 @@ class LimitStream implements StreamInterface
      * @param StreamInterface $stream Stream to wrap
      * @param int             $limit  Total number of bytes to allow to be read
      *                                from the stream. Pass -1 for no limit.
-     * @param int             $offset Position to seek to before reading (only
+     * @param int|null        $offset Position to seek to before reading (only
      *                                works on seekable streams).
      */
     public function __construct(
@@ -74,7 +72,7 @@ class LimitStream implements StreamInterface
     {
         if ($whence !== SEEK_SET || $offset < 0) {
             throw new \RuntimeException(sprintf(
-                'Cannot seek to offset %s with whence %s',
+                'Cannot seek to offset % with whence %s',
                 $offset,
                 $whence
             ));

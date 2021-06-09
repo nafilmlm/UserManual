@@ -142,7 +142,16 @@
                         <figcaption>HRMS</figcaption>
                     </a>
                 </figure>
-                </div>               
+                </div>         
+
+                  <div class="col-sm-6 col-md-3">
+                <figure class="card">
+                    <a href="FigurePro.php" class="card-img">
+                        <span style="background-image: url('images/FigurePro/figureProBanner.jpg')"></span>
+                        <figcaption>Figure Pro</figcaption>
+                    </a>
+                </figure>
+                </div>           
              
             
 

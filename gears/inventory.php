@@ -175,7 +175,7 @@ border:none;
 
    
 
-    <input class="form-control" id="myInput" type="text" onkeyup="myFunction()" placeholder="Enter Keyword to Search...">
+    <input class="form-control" id="mySearch" type="text" onkeyup="myFunction()" placeholder="Enter Keyword to Search...">
 
 
 
@@ -250,11 +250,33 @@ border:none;
 <div style="padding-left:180px; width: 100%;"}>
 <ul id="myUL">
   <div>
-  <iframe style="width:1180px; height:900px; margin-top:-60px; " src="https://docs.google.com/document/d/1YPhAB5yCOpFrKXEdt3_mIemUj6ctWTD-wjRRw_z1Fg4/edit?usp=sharing" > </iframe>
+  <ul id="myMenu">
+      <li>
+  <iframe  style="width:1180px; height:900px; margin-top:-60px; " src="https://docs.google.com/document/d/1YPhAB5yCOpFrKXEdt3_mIemUj6ctWTD-wjRRw_z1Fg4/edit?usp=sharing" > </iframe>
+      
+      </li>
+    </ul>
+    <script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
   </div>
 
   <div>
-    dsds
+    
   </div>
   </ul>
 

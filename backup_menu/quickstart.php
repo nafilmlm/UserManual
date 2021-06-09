@@ -10,7 +10,7 @@ function getClient()
     $client = new Google_Client();
     $client->setApplicationName('Google Docs API PHP Quickstart');
     $client->setScopes(Google_Service_Docs::DOCUMENTS_READONLY);
-    $client->setAuthConfig(__DIR__ . '/credentials.json');
+    $client->setAuthConfig('credentials.json');
     $client->setAccessType('offline');
 
     // Load previously authorized credentials from a file.
@@ -59,12 +59,89 @@ function expandHomeDirectory($path)
 }
 
 // Get the API client and construct the service object.
-$client = getClient();
+$client = getClient('');
 $service = new Google_Service_Docs($client);
 
 // Prints the title of the requested doc:
 // https://docs.google.com/document/d/195j9eDD3ccgjQRttHhJPymLJUCOUjs-jmwTrekvdjFE/edit
-$documentId = '195j9eDD3ccgjQRttHhJPymLJUCOUjs-jmwTrekvdjFE';
+$documentId = '';
 $doc = $service->documents->get($documentId);
 
 printf("The document title is: %s\n", $doc->getTitle());
+
+
+
+
+
+
+
+{
+    "documentId": string,
+    "title": string,
+    "body": {
+      object (Body)
+    },
+    "headers": {
+      string: {
+        object (Header)
+      },
+      ...
+    },
+    "footers": {
+      string: {
+        object (Footer)
+      },
+      ...
+    },
+    "footnotes": {
+      string: {
+        object (Footnote)
+      },
+      ...
+    },
+    "documentStyle": {
+      object (DocumentStyle)
+    },
+    "suggestedDocumentStyleChanges": {
+      string: {
+        object (SuggestedDocumentStyle)
+      },
+      ...
+    },
+    "namedStyles": {
+      object (NamedStyles)
+    },
+    "suggestedNamedStylesChanges": {
+      string: {
+        object (SuggestedNamedStyles)
+      },
+      ...
+    },
+    "lists": {
+      string: {
+        object (List)
+      },
+      ...
+    },
+    "namedRanges": {
+      string: {
+        object (NamedRanges)
+      },
+      ...
+    },
+    "revisionId": string,
+    "suggestionsViewMode": enum (SuggestionsViewMode),
+    "inlineObjects": {
+      string: {
+        object (InlineObject)
+      },
+      ...
+    },
+    "positionedObjects": {
+      string: {
+        object (PositionedObject)
+      },
+      ...
+    }
+  }
+

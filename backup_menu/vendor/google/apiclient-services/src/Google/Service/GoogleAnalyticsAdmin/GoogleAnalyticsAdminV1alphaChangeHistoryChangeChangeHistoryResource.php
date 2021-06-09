@@ -31,8 +31,12 @@ class Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaChangeHisto
   protected $firebaseLinkDataType = '';
   protected $googleAdsLinkType = 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaGoogleAdsLink';
   protected $googleAdsLinkDataType = '';
+  protected $googleSignalsSettingsType = 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaGoogleSignalsSettings';
+  protected $googleSignalsSettingsDataType = '';
   protected $iosAppDataStreamType = 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaIosAppDataStream';
   protected $iosAppDataStreamDataType = '';
+  protected $measurementProtocolSecretType = 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret';
+  protected $measurementProtocolSecretDataType = '';
   protected $propertyType = 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaProperty';
   protected $propertyDataType = '';
   protected $webDataStreamType = 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaWebDataStream';
@@ -137,6 +141,20 @@ class Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaChangeHisto
     return $this->googleAdsLink;
   }
   /**
+   * @param Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
+   */
+  public function setGoogleSignalsSettings(Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaGoogleSignalsSettings $googleSignalsSettings)
+  {
+    $this->googleSignalsSettings = $googleSignalsSettings;
+  }
+  /**
+   * @return Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
+   */
+  public function getGoogleSignalsSettings()
+  {
+    return $this->googleSignalsSettings;
+  }
+  /**
    * @param Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaIosAppDataStream
    */
   public function setIosAppDataStream(Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaIosAppDataStream $iosAppDataStream)
@@ -149,6 +167,20 @@ class Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaChangeHisto
   public function getIosAppDataStream()
   {
     return $this->iosAppDataStream;
+  }
+  /**
+   * @param Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+   */
+  public function setMeasurementProtocolSecret(Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $measurementProtocolSecret)
+  {
+    $this->measurementProtocolSecret = $measurementProtocolSecret;
+  }
+  /**
+   * @return Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+   */
+  public function getMeasurementProtocolSecret()
+  {
+    return $this->measurementProtocolSecret;
   }
   /**
    * @param Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaProperty

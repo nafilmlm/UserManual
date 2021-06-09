@@ -75,81 +75,81 @@
   <ul id="myUL">
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/accountsReceivable.php" class="card-img">
+                    <a href="operation/contracts.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption></figcaption>
+                        <figcaption>Contracts</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/inventory.php" class="card-img">
+                    <a href="operation/DBR.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption></figcaption>
+                        <figcaption>DBR</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/approvalSetup.php" class="card-img">
+                    <a href="operation/OPMaters.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>Approval Setup</figcaption>
+                        <figcaption>OP Maters</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/assetManagement.php" class="card-img">
+                    <a href="operation/OPReview.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>Asset Management</figcaption>
+                        <figcaption>OP Review</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/customeReport.php" class="card-img">
+                    <a href="operation/PMS.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>Custome Report</figcaption>
+                        <figcaption>PMS</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/operationUserManualLogistics.php" class="card-img">
+                    <a href="operation/PO.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>operation User Manual-Logistics</figcaption>
+                        <figcaption>PO</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/operationUserManualAccountspayable.php" class="card-img">
+                    <a href="operation/proforma.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>operation User Manual-Accounts payable</figcaption>
+                        <figcaption>Proforma</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/generalLedger.php" class="card-img">
+                    <a href="operation/proformaLot.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>General Ledger</figcaption>
+                        <figcaption>Proforma Lot</figcaption>
                     </a>
                 </figure>
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
                 <figure class="card">
-                    <a href="operation/salesMarketing.php" class="card-img">
+                    <a href="operation/reports.php" class="card-img">
                         <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>Sales & Marketing</figcaption>
+                        <figcaption>Reports</figcaption>
                     </a>
                 </figure>
                 </div>
@@ -163,41 +163,6 @@
                 </figure>
                 </div>
                 
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="operation/userManualConfiguration.php" class="card-img">
-                        <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>User Manual-Configuration</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="operation/userManualDashboard.php" class="card-img">
-                        <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>User Manual-Dashboard</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="operation/userManualProcurement.php" class="card-img">
-                        <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>User Manual-Procurement</figcaption>
-                    </a>
-                </figure>
-                </div>
-                
-                <div class="col-sm-6 col-md-3">
-                <figure class="card">
-                    <a href="operation/userManualTreasury.php" class="card-img">
-                        <span style="background-image: url('images/operation/operationBanner.png')"></span>
-                        <figcaption>User Manual-Treasury</figcaption>
-                    </a>
-                </figure>
-                </div>
                
             
 </ul>
